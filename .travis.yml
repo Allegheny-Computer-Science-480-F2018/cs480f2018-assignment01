@@ -4,7 +4,7 @@ before_install:
   texlive-latex-recommended
 script:
 - mkdir _build
-- latexmk -pdf -outdir=_build senior_thesis_proposal.tex
+- latexmk -pdf -outdir=_build cs480f2018_assignment01.tex
 deploy:
   provider: releases
   skip_cleanup: true
